@@ -4,38 +4,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><%=title%></title>
-   
     <%- include('partials/head')%>
-
 </head>
+
+
+
 <body>
     <%- include('partials/navigation')%>
-    <header
-    class="container vh-100 d-flex justify-content-center align-items-center"
-  >
-    <div class="d-flex flex-column justify-content-center align-items-center">
-      <img
-        src="/img/fazt.png"
-        class="w-25 m-auto animated bounceIn"
-        alt="Website Logo"
-      />
-      <h1 class="display-1 my-5 text-uppercase fw-bold">Fazt</h1>
-      <a href="/contact" class="btn btn-primary w-25">Contacto</a>
-    </div>
-  </header>
-  <div class="container-fluid" id="about">
+
+    <!---Main content-->
+    <header>
+       <img src="/img/BannerBarberia.png" alt="" class="w-100">
+    </header>
+
+ <div class="container-fluid" id="about">
     <div class="row bg-dark text-white p-5 text-center">
-      <div class="col-md-4 offset-md-4">
-        <h3>Lorem, ipsum dolor.</h3>
-        <p>
-          Elit exercitationem id illo sit distinctio. Deserunt ut debitis
-          voluptates mollitia dignissimos eligendi vel quidem itaque dolores
-          ratione ut. Soluta accusantium dolor nemo suscipit rerum. Aliquid
-          quasi excepturi provident eos.
-        </p>
-      </div>
+        <div class="col-md-4 offset-md-4">
+            <h3>Bienvendo a la Barbería Grisziel</h3>
+            <br>
+            <br>
+            <br>
+
+            <p>Ubicada en el corazón de la ciudad, la <strong>Barbería GRISZIEL</strong> trae lo mejor del mercado para su cabello y barba. Fundada en 2020, la Barbería GRISZIEL ya es destaque en la ciudad y conquista nuevos clientes diariamente.</p>
+        
+            <p id="mision"><em>Nuestra misión es: <strong>"Proporcionar autoestima y calidad de vida a nuestros clientes"</strong>.</em></p>
+        
+            <p>Ofrecemos profesionales experimentados que están constantemente observando los cambios y movimientos en el mundo de la moda, para así ofrecer a nuestros clientes las últimas tendencias. El atendimiento posee un padrón de excelencia y agilidad, garantizando calidad y satisfacción de nuestros clientes.</p> 
+        </div>
     </div>
-  </div>
+ </div>
+
     <%- include('partials/footer')%>
 </body>
 </html>
