@@ -10,12 +10,32 @@
 </head>
 <body>
     <%- include('partials/navigation')%>
-
-    <!---Main content-->
-<header>
-<img src="" alt="">
-</header>
-
+    <header
+    class="container vh-100 d-flex justify-content-center align-items-center"
+  >
+    <div class="d-flex flex-column justify-content-center align-items-center">
+      <img
+        src="/img/fazt.png"
+        class="w-25 m-auto animated bounceIn"
+        alt="Website Logo"
+      />
+      <h1 class="display-1 my-5 text-uppercase fw-bold">Fazt</h1>
+      <a href="/contact" class="btn btn-primary w-25">Contacto</a>
+    </div>
+  </header>
+  <div class="container-fluid" id="about">
+    <div class="row bg-dark text-white p-5 text-center">
+      <div class="col-md-4 offset-md-4">
+        <h3>Lorem, ipsum dolor.</h3>
+        <p>
+          Elit exercitationem id illo sit distinctio. Deserunt ut debitis
+          voluptates mollitia dignissimos eligendi vel quidem itaque dolores
+          ratione ut. Soluta accusantium dolor nemo suscipit rerum. Aliquid
+          quasi excepturi provident eos.
+        </p>
+      </div>
+    </div>
+  </div>
     <%- include('partials/footer')%>
 </body>
 </html>
